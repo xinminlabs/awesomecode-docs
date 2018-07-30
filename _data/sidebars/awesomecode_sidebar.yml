@@ -1,0 +1,13 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  folders:
+
+  - title: Quickstart
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /quickstart_getting_started.html
+      output: web, pdf

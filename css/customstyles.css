@@ -2,6 +2,13 @@ body {
     font-size:15px;
 }
 
+.navbar-brand img {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin: -5px 10px 0 0;
+}
+
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
