@@ -1,6 +1,19 @@
-FROM tonisuter/jekyll-nginx
+FROM nginx:stable
+
+# Ruby
+RUN apt-get -y update
+RUN apt-get -y install ruby ruby-dev build-essentials
+
+# Jekyll
+RUN gem install jekyll bundler
+
+# Environment
+ENV LC_ALL C.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US.UTF-8
 
 ADD . /tmp/jekyll-site
 WORKDIR /tmp/jekyll-site
+RUN bundle install
 RUN jekyll build
 RUN cp -r /tmp/jekyll-site/_site/* /usr/share/nginx/html
