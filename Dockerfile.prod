@@ -2,10 +2,10 @@ FROM nginx:stable
 
 # Ruby
 RUN apt-get -y update
-RUN apt-get -y install ruby ruby-dev build-essentials
+RUN apt-get -y install ruby-dev build-essential patch zlib1g-dev liblzma-dev
 
 # Jekyll
-RUN gem install jekyll bundler
+RUN gem install --no-rdoc --no-ri bundler
 
 # Environment
 ENV LC_ALL C.UTF-8
