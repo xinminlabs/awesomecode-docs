@@ -1,5 +1,5 @@
 ---
-title: Getting started
+title: Quickstart Getting Started
 keywords: quickstart, getting started
 last_updated: July 29, 2018
 sidebar: awesomecode_sidebar

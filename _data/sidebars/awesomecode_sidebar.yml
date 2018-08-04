@@ -11,3 +11,31 @@ entries:
     - title: Getting started
       url: /quickstart_getting_started.html
       output: web, pdf
+
+  - title: Builds
+    output: web, pdf
+    folderitems:
+
+    - title: Getting started
+      url: /quickstart_getting_started.html
+      output: web, pdf
+
+  - title: Configurations
+    output: web, pdf
+    folderitems:
+
+    - title: Global
+      url: /configurations_global.html
+      output: web, pdf
+
+    - title: Ruby
+      url: /configurations_ruby.html
+      output: web, pdf
+
+    - title: Javascript
+      url: /configurations_javascript.html
+      output: web, pdf
+
+    - title: Css
+      url: /configurations_css.html
+      output: web, pdf
