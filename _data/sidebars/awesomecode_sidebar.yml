@@ -16,8 +16,8 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Getting started
-      url: /quickstart_getting_started.html
+    - title: States
+      url: /builds_states.html
       output: web, pdf
 
   - title: Configurations

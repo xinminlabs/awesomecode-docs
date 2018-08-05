@@ -1,6 +1,6 @@
 ---
 title: Configurations Css
-keywords: configuration, css
+keywords: configurations, css
 last_updated: August 4, 2018
 sidebar: awesomecode_sidebar
 permalink: configurations_css.html

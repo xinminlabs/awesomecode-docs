@@ -1,6 +1,6 @@
 ---
 title: Configurations Ruby
-keywords: configuration, ruby
+keywords: configurations, ruby
 last_updated: August 4, 2018
 sidebar: awesomecode_sidebar
 permalink: configurations_ruby.html

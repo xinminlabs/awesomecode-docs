@@ -1,6 +1,6 @@
 ---
 title: Configurations Javascript
-keywords: configuration, javascript
+keywords: configurations, javascript
 last_updated: August 4, 2018
 sidebar: awesomecode_sidebar
 permalink: configurations_javascript.html

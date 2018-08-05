@@ -1,6 +1,6 @@
 ---
 title: Configurations Global
-keywords: configuration, global
+keywords: configurations, global
 last_updated: August 4, 2018
 sidebar: awesomecode_sidebar
 permalink: configurations_global.html
