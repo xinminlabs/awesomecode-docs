@@ -7,12 +7,6 @@ permalink: quickstart_getting_started.html
 folder: quickstart
 ---
 
-## About Awesome Code
-
-[awesomecode.io](https://awesomecode.io) is a service to continuously improve your code readability by git push and pull request, with one click or even full automated.
-
-Every time you push a commit, it will analyze your source code, show you what code can be improved, you can click to fix them or configure to let awesomecode fix them automatically.
-
 This article will walk you through setting up an Awesome Code project.
 For a video introduction to Awesome Code, you can view our [overview
 video](https://youtu.be/oIlN1BHvQCE).
