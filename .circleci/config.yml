@@ -22,7 +22,7 @@ jobs:
       - run:
           name: deploy
           command: |
-            result=$(ssh -o StrictHostKeyChecking=no xinminlabs.com "docker service update --image xinminlabs/awesomecode-docs:$(git rev-parse --short HEAD) awesomecode-docs")
+            result=$(ssh -o StrictHostKeyChecking=no -p 12222 deploy@xinminlabs.com "docker service update --image xinminlabs/awesomecode-docs:$(git rev-parse --short HEAD) awesomecode-docs")
             [ $? -gt 0 ] && echo 'deployment failed' && exit 1
             echo $result
 
