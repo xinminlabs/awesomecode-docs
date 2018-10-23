@@ -1,0 +1,36 @@
+# Ruby CircleCI 2.0 configuration file
+version: 2
+jobs:
+  deploy:
+    machine: true
+
+    steps:
+      - checkout
+
+      - run:
+          name: docker login
+          command: docker login -u $DOCKER_USER -p $DOCKER_PASS
+
+      - run:
+          name: build docker
+          command: docker build -f Dockerfile.prod -t xinminlabs/awesomecode-docs:$(git rev-parse --short HEAD) .
+
+      - run:
+          name: push docker
+          command: docker push xinminlabs/awesomecode-docs:$(git rev-parse --short HEAD)
+
+      - run:
+          name: deploy
+          command: |
+            result=$(ssh -o StrictHostKeyChecking=no xinminlabs.com "docker service update --image xinminlabs/awesomecode-docs:$(git rev-parse --short HEAD) awesomecode-docs")
+            [ $? -gt 0 ] && echo 'deployment failed' && exit 1
+            echo $result
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: awesomecode-docs
