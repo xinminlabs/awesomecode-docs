@@ -16,7 +16,8 @@ video](https://youtu.be/oIlN1BHvQCE).
 To create your account, you just need to click "Sign In With Github"
 button or "Sign In With Bitbucket" button.
 
-![quickstart getting started 0](/images/quickstart_getting_started_0.png)
+<img src="/images/quickstart_getting_started_0.png" alt="quickstart
+getting started 0" style="height:80px;width:559px">
 
 ## Connecting Your Project
 
