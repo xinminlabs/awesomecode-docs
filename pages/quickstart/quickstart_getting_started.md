@@ -21,7 +21,7 @@ getting started 0" style="height:80px;width:559px">
 
 ## Connecting Your Project
 
-Click "Create a Project" link.
+Click "+ Add Your First Project" link.
 
 ![quickstart getting started 1](/images/quickstart_getting_started_1.png)
 
