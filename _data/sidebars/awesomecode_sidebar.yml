@@ -20,6 +20,18 @@ entries:
       url: /builds_states.html
       output: web, pdf
 
+  - title: Organizations
+    output: web, pdf
+    folderitems:
+
+    - title: Organization Management
+      url: /organizations_management.html
+      output: web, pdf
+
+    - title: Projects Management
+      url: /projects_management.html
+      output: web, pdf
+
   - title: Configurations
     output: web, pdf
     folderitems:
