@@ -1,10 +1,10 @@
 ---
-title: Quickstart Getting Started
-keywords: quickstart, getting started
+title: Overview Getting Started
+keywords: overview, getting started
 last_updated: July 29, 2018
 sidebar: awesomecode_sidebar
-permalink: quickstart_getting_started.html
-folder: quickstart
+permalink: overview_getting_started.html
+folder: overview
 ---
 
 This article will walk you through setting up an Awesome Code project.

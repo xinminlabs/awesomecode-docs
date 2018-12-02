@@ -4,20 +4,16 @@ entries:
 - title: sidebar
   folders:
 
-  - title: Quickstart
+  - title: Overview
     output: web, pdf
     folderitems:
 
-    - title: Getting started
-      url: /quickstart_getting_started.html
+    - title: Introduction
+      url: /overview_introduction.html
       output: web, pdf
 
-  - title: Builds
-    output: web, pdf
-    folderitems:
-
-    - title: States
-      url: /builds_states.html
+    - title: Getting started
+      url: /overview_getting_started.html
       output: web, pdf
 
   - title: Organizations
@@ -30,6 +26,14 @@ entries:
 
     - title: Projects Management
       url: /projects_management.html
+      output: web, pdf
+
+  - title: Builds
+    output: web, pdf
+    folderitems:
+
+    - title: States
+      url: /builds_states.html
       output: web, pdf
 
   - title: Configurations
