@@ -11,6 +11,6 @@ toc: false
 
 Every time you push a commit, it will analyze your source code, show you what code can be improved, you can click to fix them or configure to let awesomecode fix them automatically.
 
-If you are willing to use awesomecode.io to improve your code readability, please check out our [Getting Started](/quickstart_getting_started.html) documentation first.
+If you are willing to use awesomecode.io to improve your code readability, please check out our [Getting Started](/overview_getting_started.html) documentation first.
 
 {% include links.html %}
